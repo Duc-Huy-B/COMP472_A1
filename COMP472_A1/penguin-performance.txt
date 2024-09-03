@@ -1,0 +1,353 @@
+
+--------------------------------------Base-Decision Tree-----------------------------------------
+Confusion Matrix:
+ [[1 0 0]
+ [0 6 0]
+ [0 0 6]]
+
+               precision    recall  f1-score   support
+
+      Adelie       1.00      1.00      1.00         1
+   Chinstrap       1.00      1.00      1.00         6
+      Gentoo       1.00      1.00      1.00         6
+
+    accuracy                           1.00        13
+   macro avg       1.00      1.00      1.00        13
+weighted avg       1.00      1.00      1.00        13
+
+Confusion Matrix:
+ [[4 0 1]
+ [0 2 0]
+ [0 0 6]]
+
+               precision    recall  f1-score   support
+
+      Adelie       1.00      0.80      0.89         5
+   Chinstrap       1.00      1.00      1.00         2
+      Gentoo       0.86      1.00      0.92         6
+
+    accuracy                           0.92        13
+   macro avg       0.95      0.93      0.94        13
+weighted avg       0.93      0.92      0.92        13
+
+Confusion Matrix:
+ [[4 0 0]
+ [0 3 1]
+ [0 1 4]]
+
+               precision    recall  f1-score   support
+
+      Adelie       1.00      1.00      1.00         4
+   Chinstrap       0.75      0.75      0.75         4
+      Gentoo       0.80      0.80      0.80         5
+
+    accuracy                           0.85        13
+   macro avg       0.85      0.85      0.85        13
+weighted avg       0.85      0.85      0.85        13
+
+Confusion Matrix:
+ [[3 0 2]
+ [1 2 1]
+ [0 0 4]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.75      0.60      0.67         5
+   Chinstrap       1.00      0.50      0.67         4
+      Gentoo       0.57      1.00      0.73         4
+
+    accuracy                           0.69        13
+   macro avg       0.77      0.70      0.69        13
+weighted avg       0.77      0.69      0.69        13
+
+Confusion Matrix:
+ [[5 0 0]
+ [0 2 0]
+ [1 0 5]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.83      1.00      0.91         5
+   Chinstrap       1.00      1.00      1.00         2
+      Gentoo       1.00      0.83      0.91         6
+
+    accuracy                           0.92        13
+   macro avg       0.94      0.94      0.94        13
+weighted avg       0.94      0.92      0.92        13
+
+Average Accuracy: 0.876923076923077
+
+	Average Accuracy Variance: 0.010887573964497046
+
+Average Macro-Average: 0.8827169127169128
+
+	Average Macro-Average Variance: 0.011875248114667955
+
+Average Weighted-Average: 0.875261490646106
+
+	Average Weighted-Average Variance: 0.011387070473152053
+--------------------------------------Top-Decision Tree-----------------------------------------
+
+------------- criterion: entropy ------------- max_depth: 3 ------------- min_samples_split: 20 -------------
+Confusion Matrix:
+ [[3 0 0]
+ [0 3 0]
+ [1 0 6]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.75      1.00      0.86         3
+   Chinstrap       1.00      1.00      1.00         3
+      Gentoo       1.00      0.86      0.92         7
+
+    accuracy                           0.92        13
+   macro avg       0.92      0.95      0.93        13
+weighted avg       0.94      0.92      0.93        13
+
+Confusion Matrix:
+ [[2 0 0]
+ [0 4 0]
+ [1 0 6]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.67      1.00      0.80         2
+   Chinstrap       1.00      1.00      1.00         4
+      Gentoo       1.00      0.86      0.92         7
+
+    accuracy                           0.92        13
+   macro avg       0.89      0.95      0.91        13
+weighted avg       0.95      0.92      0.93        13
+
+Confusion Matrix:
+ [[0 6 1]
+ [0 2 1]
+ [0 0 3]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         7
+   Chinstrap       0.25      0.67      0.36         3
+      Gentoo       0.60      1.00      0.75         3
+
+    accuracy                           0.38        13
+   macro avg       0.28      0.56      0.37        13
+weighted avg       0.20      0.38      0.26        13
+
+Confusion Matrix:
+ [[0 2 3]
+ [0 3 0]
+ [0 0 5]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         5
+   Chinstrap       0.60      1.00      0.75         3
+      Gentoo       0.62      1.00      0.77         5
+
+    accuracy                           0.62        13
+   macro avg       0.41      0.67      0.51        13
+weighted avg       0.38      0.62      0.47        13
+
+Confusion Matrix:
+ [[2 0 0]
+ [0 4 0]
+ [0 0 7]]
+
+               precision    recall  f1-score   support
+
+      Adelie       1.00      1.00      1.00         2
+   Chinstrap       1.00      1.00      1.00         4
+      Gentoo       1.00      1.00      1.00         7
+
+    accuracy                           1.00        13
+   macro avg       1.00      1.00      1.00        13
+weighted avg       1.00      1.00      1.00        13
+
+Average Accuracy: 0.7692307692307693
+
+	Average Accuracy Variance: 0.054437869822485205
+
+Average Macro-Average: 0.7424109224109224
+
+	Average Macro-Average Variance: 0.06422642308296654
+
+Average Weighted-Average: 0.7158702835625912
+
+	Average Weighted-Average Variance: 0.08823715834910204
+--------------------------------------Base-MLP-----------------------------------------
+Confusion Matrix:
+ [[0 0 3]
+ [0 0 4]
+ [0 0 6]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         3
+   Chinstrap       0.00      0.00      0.00         4
+      Gentoo       0.46      1.00      0.63         6
+
+    accuracy                           0.46        13
+   macro avg       0.15      0.33      0.21        13
+weighted avg       0.21      0.46      0.29        13
+
+Confusion Matrix:
+ [[0 0 6]
+ [0 0 2]
+ [0 0 5]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         6
+   Chinstrap       0.00      0.00      0.00         2
+      Gentoo       0.38      1.00      0.56         5
+
+    accuracy                           0.38        13
+   macro avg       0.13      0.33      0.19        13
+weighted avg       0.15      0.38      0.21        13
+
+Confusion Matrix:
+ [[0 0 5]
+ [0 0 4]
+ [0 0 4]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         5
+   Chinstrap       0.00      0.00      0.00         4
+      Gentoo       0.31      1.00      0.47         4
+
+    accuracy                           0.31        13
+   macro avg       0.10      0.33      0.16        13
+weighted avg       0.09      0.31      0.14        13
+
+Confusion Matrix:
+ [[0 0 4]
+ [0 0 3]
+ [0 0 6]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         4
+   Chinstrap       0.00      0.00      0.00         3
+      Gentoo       0.46      1.00      0.63         6
+
+    accuracy                           0.46        13
+   macro avg       0.15      0.33      0.21        13
+weighted avg       0.21      0.46      0.29        13
+
+Confusion Matrix:
+ [[0 0 6]
+ [0 0 1]
+ [0 0 6]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         6
+   Chinstrap       0.00      0.00      0.00         1
+      Gentoo       0.46      1.00      0.63         6
+
+    accuracy                           0.46        13
+   macro avg       0.15      0.33      0.21        13
+weighted avg       0.21      0.46      0.29        13
+
+Average Accuracy: 0.4153846153846154
+
+	Average Accuracy Variance: 0.003786982248520711
+
+Average Macro-Average: 0.1947253755303291
+
+	Average Macro-Average Variance: 0.0004547206308585817
+
+Average Weighted-Average: 0.24659310417824348
+
+	Average Weighted-Average Variance: 0.003499100602322633
+--------------------------------------Top-MLP-----------------------------------------
+
+------------- activation function: logistic ------------- hidden layer size: (10, 10, 10) ------------- solver: sgd -------------
+Confusion Matrix:
+ [[0 0 3]
+ [0 0 3]
+ [0 0 7]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         3
+   Chinstrap       0.00      0.00      0.00         3
+      Gentoo       0.54      1.00      0.70         7
+
+    accuracy                           0.54        13
+   macro avg       0.18      0.33      0.23        13
+weighted avg       0.29      0.54      0.38        13
+
+Confusion Matrix:
+ [[0 0 5]
+ [0 0 4]
+ [0 0 4]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         5
+   Chinstrap       0.00      0.00      0.00         4
+      Gentoo       0.31      1.00      0.47         4
+
+    accuracy                           0.31        13
+   macro avg       0.10      0.33      0.16        13
+weighted avg       0.09      0.31      0.14        13
+
+Confusion Matrix:
+ [[0 0 6]
+ [0 0 4]
+ [0 0 3]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         6
+   Chinstrap       0.00      0.00      0.00         4
+      Gentoo       0.23      1.00      0.38         3
+
+    accuracy                           0.23        13
+   macro avg       0.08      0.33      0.12        13
+weighted avg       0.05      0.23      0.09        13
+
+Confusion Matrix:
+ [[0 0 5]
+ [0 0 4]
+ [0 0 4]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         5
+   Chinstrap       0.00      0.00      0.00         4
+      Gentoo       0.31      1.00      0.47         4
+
+    accuracy                           0.31        13
+   macro avg       0.10      0.33      0.16        13
+weighted avg       0.09      0.31      0.14        13
+
+Confusion Matrix:
+ [[0 0 4]
+ [0 0 2]
+ [0 0 7]]
+
+               precision    recall  f1-score   support
+
+      Adelie       0.00      0.00      0.00         4
+   Chinstrap       0.00      0.00      0.00         2
+      Gentoo       0.54      1.00      0.70         7
+
+    accuracy                           0.54        13
+   macro avg       0.18      0.33      0.23        13
+weighted avg       0.29      0.54      0.38        13
+
+Average Accuracy: 0.3846153846153846
+
+	Average Accuracy Variance: 0.016568047337278104
+
+Average Macro-Average: 0.18107843137254903
+
+	Average Macro-Average Variance: 0.0019557477893118046
+
+Average Weighted-Average: 0.22599547511312218
+
+	Average Weighted-Average Variance: 0.0156386253352716
